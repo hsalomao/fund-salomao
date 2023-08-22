@@ -21,6 +21,8 @@ Foram desenvolvidas algumas páginas web de uma instituição de ensino com as f
 - CRUD de Notas
 - Nova senha
 
+Todos os protótipos foram desenvolvidos utilizando o Draw.io (https://app.diagrams.net/)
+
 ## Começando <a name = "getting_started"></a>
 
 Até o presente momento toda aplicação foi desenvolvida em HTML5 com bootstrap.

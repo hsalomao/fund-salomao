@@ -49,5 +49,5 @@ Com isso uma página do seu navegador será aberto. Tente abrir o link http://12
 ## Autor <a name = "author"></a>
 
 Humberto Quintino Salomão <br>
-humbertoqs@gmail.com
+humbertoqs@gmail.com <br>
 Github:hsalomao

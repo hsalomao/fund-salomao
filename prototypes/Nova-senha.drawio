@@ -1,0 +1,34 @@
+<mxfile host="Electron" modified="2023-08-17T01:05:22.811Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="0e6W9wfUeAzOp8vylkpb" version="21.3.7" type="device">
+  <diagram name="Página-1" id="Jkc078h2hcOx-05Bufs_">
+    <mxGraphModel dx="880" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MRH6tuEuY3I-kxTHl0fX-1" value="Fundação Salomão" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.window;align=left;verticalAlign=top;spacingLeft=8;strokeColor2=#008cff;strokeColor3=#c4c4c4;fontColor=#666666;mainText=;fontSize=17;labelBackgroundColor=none;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="80" y="50" width="620" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MRH6tuEuY3I-kxTHl0fX-12" value="Bem vindo a Fundação Itaú" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="220" y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRH6tuEuY3I-kxTHl0fX-20" value="Endereço da instituição, telefone, email. Instagram, Facebook, Linkedin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="91" y="280" width="598" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1BS2OmxU5GtEtXf-yxSe-1" value="" style="strokeColor=#999999;verticalLabelPosition=bottom;shadow=0;dashed=0;verticalAlign=top;strokeWidth=2;html=1;shape=mxgraph.mockup.misc.printIcon;" parent="1" vertex="1">
+          <mxGeometry x="110" y="90" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1BS2OmxU5GtEtXf-yxSe-6" value="E-mail" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;align=right;spacingRight=2;fontColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="210" y="170" width="50" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="1BS2OmxU5GtEtXf-yxSe-7" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;fillColor=#ffffff;rSize=0;fontColor=#666666;align=left;spacingLeft=3;strokeColor=#999999;" parent="1" vertex="1">
+          <mxGeometry x="270" y="170" width="350" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4l2loMJzEPzAmuKCd96T-3" value="Digite seu e-mail e em instantes uma nova senha será enviada para você." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="130" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l2loMJzEPzAmuKCd96T-4" value="Enviar" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

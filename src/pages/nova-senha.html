@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="/src/css/padrao.css" rel="stylesheet" />
+    <link href="/src/css/nova-senha.css" rel="stylesheet" />
+    <script type="text/javascript" src="/src/js/padrao.js"></script>
     <title>Esqueci minha senha - Fundação Salomão</title>
 </head>
 <body>
     <header>
-        <i class="bi bi-geo-alt"></i><p>São Paulo, SP</p>
-        <i class="bi bi-calendar"></i><input type="date" value="2022-01-31" readonly>
+        <i class="bi bi-calendar">&nbsp &nbsp</i><label id="dataExtenso">
     </header>
     <main>
-        <span>
-            <img src="/src/img/esquecer-senha.jpg" alt="Logotipo">
+        <div class="welcome">
+            <img src="/src/img/esquecer-senha.jpg" alt="Logotipo" id="logo">
             <h1>Bem vindo a Fundação Salomão!</h1>
-        </span>
+        </div>
 
-        <section>
+        <section id="nova-senha">
             <div>
                 Digite seu e-mail e em instantes uma nova senha será enviada para você.
             </div>            
@@ -26,19 +31,17 @@
                 <input type="email" name="email" placeholder="Digite seu emaill aqui">
             </div>
             <div>
-                <input type="button" value="Enviar">
+                <input type="button" value="Enviar" class="button">
                 <a href="login.html">
-                    <input type="button" value="Voltar">
-                </a>
-                
+                    <input type="button" value="Voltar" class="button">
+                </a>                
             </div>
         </section>
     </main>
 
     <footer>
-        <h2>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 - <i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i> @fundsalomao - <i class="bi bi-facebook"></i> fundsalomao - <i class="bi bi-linkedin"></i> fundsalomao</h2>
-        <h3><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h3>
-
+        <h5>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 -<i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i>@fundsalomao - <i class="bi bi-facebook"></i>fundsalomao - <i class="bi bi-linkedin"></i>fundsalomao</h5>
+        <h5><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h5>
     </footer>
     
 </body>

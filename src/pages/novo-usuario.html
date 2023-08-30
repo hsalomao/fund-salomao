@@ -1,126 +1,180 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="/src/css/padrao.css" rel="stylesheet" />
+    <link href="/src/css/novo-usuario.css" rel="stylesheet" />
+    <script type="text/javascript" src="/src/js/padrao.js"></script>
     <title>Novo Usuário - Fundação Salomão</title>
 </head>
+
 <body>
     <header>
-        <i class="bi bi-geo-alt"></i><p>São Paulo, SP</p>
-        <i class="bi bi-calendar"></i><input type="date" value="2022-01-31" readonly>
+        <i class="bi bi-calendar">&nbsp &nbsp</i><label id="dataExtenso">
     </header>
     <main>
-        <span>
-            <img src="/src/img/faculdade.logo.jpg" alt="Logotipo">
+        <span class="header">
+            <img src="/src/img/faculdade-logo.jpg" alt="Logotipo" id="logo-pequeno">
             <h1>Bem vindo a Fundação Salomão!</h1>
-            <h3>Informe os seus dados abaixo:</h3>
         </span>
 
         <section>
-            <div>
-                <i class="bi bi-person-add"></i>
-                <legend>Novo Usuário</legend>
-            </div>            
-            <div>
-                <div>
-                    <label name="name">Nome:</label>
-                    <input type="text" name="name" placeholder="Digite seu nome aqui">
-                </div>
-                <div>
-                    <label name="address">Endereço:</label>
-                    <input type="text" name="address" placeholder="Digite seu endereço aqui">
-                </div>
-                <div>
-                    <label name="city_state">Cidade/Estado:</label>
-                    <input type="text" name="city_state" placeholder="Digite sua cidade/estado aqui">
-                </div>
-                <div>
-                    <label name="email">email:</label>
-                    <input type="email" name="email" placeholder="Digite seu e-mail aqui">
-                </div>
-                <div>
-                    <label name="telephone">Telefone:</label>
-                    <input type="tel" name="telephone" minlength="12" placeholder="Digite seu número de telefone aqui">
-                </div>
-                <div>
-                    <label name="cellphone">Celular:</label>
-                    <input type="tel" name="cellphone" minlength="15" placeholder="Digite seu número de celular aqui">
-                </div>
-                <div>
-                    <label for="document">Documento:</label>
-                    <select name="document" id="document">
-                        <option value="cpf">CPF</option>
-                        <option value="rg">RG</option>
-                        <option value="rne">RNE</option>                        
-                        <option value="cnh">CNH</option>
-                        <option value="passaporte">Passaporte</option>
-                      </select>
-                    <input type="text" name="document" placeholder="Digite seu documento aqui">
-                </div>
-                <div>
-                    <label name="birthday">Data Nascimento:</label>
-                    <input type="date" name="birthday"placeholder="Digite sua data de nascimento aqui">
-                </div>
-                <div>
-                    <div>
-                        <label name="school-subjects">Matéria(s):</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="opt1" name="opt1" checked />
-                        <label for="opt1">Lorem ipsum dolor sit amet</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="opt2" name="opt2"/>
-                        <label for="opt2">Lorem ipsum dolor sit amet</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="opt3" name="opt3"/>
-                        <label for="opt3">Lorem ipsum dolor sit amet</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="opt4" name="opt4"/>
-                        <label for="opt4">Lorem ipsum dolor sit amet</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" id="opt5" name="opt5"/>
-                        <label for="opt5">Lorem ipsum dolor sit amet</label>
-                    </div>
-                </div>
-                <div>
-                    <label name="user-type">Tipo:</label>
-                    <input type="radio" id="student" name="user-type" value="student">
-                    <label for="student">Aluno(a)</label><br>
-                    <input type="radio" id="teacher" name="user-type" value="teacher">
-                    <label for="teacher">Professor(a)</label><br>
-                    <input type="radio" id="administrator" name="user-type" value="administrator">
-                    <label for="administrator">Administrador(a)</label>
-                </div>
-                <div>
-                    <label name="password">Senha:</label>
-                    <input type="password" name="password"placeholder="Digite sua senha aqui">
-                </div>
-            </div>
-            
-            
+            <span>
+                <i class="bi bi-person-add"></i>Novo Usuário - Informe os seus dados abaixo:
+            </span>
+            <table>
+                <tr>
+                    <td>
+                        <label name="name">Nome:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" placeholder="Digite seu nome aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="address">Endereço:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="address" placeholder="Digite seu endereço aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="city_state">Cidade/Estado:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="city_state" placeholder="Digite sua cidade/estado aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="email">E-Mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" placeholder="Digite seu e-mail aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="telephone">Telefone:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="telephone" minlength="12" placeholder="Digite seu número de telefone aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="cellphone">Celular:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="cellphone" minlength="15" placeholder="Digite seu número de celular aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="document">Documento:</label>
+                    </td>
+                    <td>
+                        <select name="document" id="document">
+                            <option value="cpf">CPF</option>
+                            <option value="rg">RG</option>
+                            <option value="rne">RNE</option>
+                            <option value="cnh">CNH</option>
+                            <option value="passaporte">Passaporte</option>
+                        </select>
+                        <input type="text" name="document" placeholder="Digite seu documento aqui" class="input-medium">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="birthday">Data Nascimento:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="birthday" placeholder="Digite sua data de nascimento aqui">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="school-subjects">Matéria(s):</label></td>
+                    <td>
+                        <div>
+                            <input type="checkbox" id="opt1" name="opt1" checked />
+                            <label for="opt1">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt2" name="opt2" />
+                            <label for="opt2">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt3" name="opt3" />
+                            <label for="opt3">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt4" name="opt4" />
+                            <label for="opt4">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt5" name="opt5" />
+                            <label for="opt5">Lorem ipsum dolor sit amet</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="user-type">Usuário:</label>
+                    </td>
+                    <td class="user-type">
+                        <div  class="user-type">
+                            <div>
+                                <input type="radio" id="student" name="user-type" value="student">
+                                <label for="student">Aluno(a)</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="teacher" name="user-type" value="teacher">
+                                <label for="teacher">Professor(a)</label><br>
+                            </div>
+                            <div>    
+                                <input type="radio" id="administrator" name="user-type" value="administrator">
+                                <label for="administrator">Administrador(a)</label>
+                            </div>
+                        </div>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="password">Senha:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" placeholder="Digite sua senha aqui">
+                    </td>
+                </tr>
+            </table>
         </section>
 
         <section>
-            <div>
-                <input type="button" value="Salvar">
+            <div class="group-button">
+                <input type="button" value="Salvar" class="button">
                 <a href="login.html">
-                    <input type="button" value="Voltar">
-                </a>                
+                    <input type="button" value="Voltar" class="button">
+                </a>
             </div>
         </section>
     </main>
 
     <footer>
-        <h2>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 - <i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i> @fundsalomao - <i class="bi bi-facebook"></i> fundsalomao - <i class="bi bi-linkedin"></i> fundsalomao</h2>
-        <h3><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h3>
-
+        <h5>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 -<i
+                class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i>@fundsalomao -
+            <i class="bi bi-facebook"></i>fundsalomao - <i class="bi bi-linkedin"></i>fundsalomao</h5>
+        <h5><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h5>
     </footer>
-    
+
 </body>
+
 </html>

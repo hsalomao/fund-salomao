@@ -1,0 +1,27 @@
+.group-button  {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.warning {
+    -webkit-text-stroke: 1px;
+    width: 95%;
+}
+
+textarea {
+    margin:0%;
+    width: 100%;
+}
+
+.action {
+    width: 5%;
+}

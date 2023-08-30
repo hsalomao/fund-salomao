@@ -1,0 +1,28 @@
+.school-subjects {
+    width: 95%;
+    -webkit-text-stroke: 1px;
+}
+
+.action {
+    width: 5%;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.group-button  {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.new-subject {
+    margin:0%;
+    width: 100%;
+}

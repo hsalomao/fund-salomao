@@ -4,89 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="/src/css/padrao.css" rel="stylesheet" />
+    <link href="/src/css/professores.css" rel="stylesheet" />
+    <script type="text/javascript" src="/src/js/padrao.js"></script>
     <title>Professores - Fundação Salomão</title>
 </head>
 <body>
     <header>
-        <i class="bi bi-geo-alt"></i><p>São Paulo, SP</p>
-        <i class="bi bi-calendar"></i><input type="date" value="2022-01-31" readonly>
-        <nav>
-            <ul>
-                <li><i class="bi bi-person-badge"></i>Alunos</li>
-                <li><i class="bi bi-person-rolodex"></i>Professores</li>
-                <li><i class="bi bi-journal-album"></i>Matérias</li>
-                <li><i class="bi bi-pencil-square"></i>Notas</li>
-                <li><i class="bi bi-cash-coin"></i>Financeiro</li>
-                <li><i class="bi bi-exclamation-diamond"></i>Avisos</li>
-            </ul>
-        </nav>
+        <i class="bi bi-calendar">&nbsp &nbsp</i><label id="dataExtenso">            
     </header>
     <main>
-        <span>
-            <img src="/src/img/faculdade-logo.jpg" alt="Logotipo">
+        <nav id="menu-h">
+            <ul>
+                <li><a href="alunos.html"><i class="bi bi-person-badge"></i>Alunos</a></li>
+                <li><a href="professores.html"><i class="bi bi-person-rolodex"></i>Professores</a></li>
+                <li><a href="materias.html"><i class="bi bi-journal-album"></i>Matérias</a></li>
+                <li><a href="notas.html"><i class="bi bi-pencil-square"></i>Notas</a></li>
+                <li><a href="avisos.html"><i class="bi bi-exclamation-diamond"></i>Avisos</a></li>
+                <li><a href="documentos.html"><i class="bi bi-file-text"></i>Documentos</a></li>
+            </ul>
+        </nav>
+        
+        <span class="header">
+            <img src="/src/img/faculdade-logo.jpg" alt="Logotipo" id="logo-pequeno">
             <h1>Bem vindo a Fundação Salomão!</h1>
         </span>
-            
 
         <section>
             <table>
                 <tr>
-                    <th>Professores</th>
-                    <th>Ações</th>
+                    <th class="teacher">Professor</th>
+                    <th class="action">Ações</th>
                 </tr>
                 <tr>
                     <td>Nome 1</td>
                     <td>
-                        <label name="status">Status:</label>
-                        <input type="radio" id="active" name="status" value="active">
+                        <label id="status1">Status:</label>
+                        <input type="radio" name="status1" value="active">
                         <label for="active">Ativo(a)</label>
-                        <input type="radio" id="inactive" name="user-type" value="inactive">
+                        <input type="radio" name="status1" value="inactive">
                         <label for="inactive">Inativo(a)</label>
-                        <input type="button" value="Editar">
+                        <input type="button" value="Editar" class="button">
                     </td>
                 </tr>
                 <tr>
                     <td>Nome 2</td>
                     <td>
-                        <label name="status">Status:</label>
-                        <input type="radio" id="active" name="status" value="active">
+                        <label name="status2">Status:</label>
+                        <input type="radio" name="status2" value="active">
                         <label for="active">Ativo(a)</label>
-                        <input type="radio" id="inactive" name="user-type" value="inactive">
+                        <input type="radio" name="status2" value="inactive">
                         <label for="inactive">Inativo(a)</label>
-                        <input type="button" value="Editar">
+                        <input type="button" value="Editar" class="button">
                     </td>
                 </tr>
                 <tr>
                     <td>Nome 3</td>
                     <td>
-                        <label name="status">Status:</label>
-                        <input type="radio" id="active" name="status" value="active">
+                        <label name="status3">Status:</label>
+                        <input type="radio" name="status3" value="active">
                         <label for="active">Ativo(a)</label>
-                        <input type="radio" id="inactive" name="user-type" value="inactive">
+                        <input type="radio" name="status3" value="inactive">
                         <label for="inactive">Inativo(a)</label>
-                        <input type="button" value="Editar">
+                        <input type="button" value="Editar" class="button">
                     </td>
                 </tr>
                 <tr>
                     <td>Nome 4</td>
                     <td>
-                        <label name="status">Status:</label>
-                        <input type="radio" id="active" name="status" value="active">
+                        <label name="status4">Status:</label>
+                        <input type="radio" name="status4" value="active">
                         <label for="active">Ativo(a)</label>
-                        <input type="radio" id="inactive" name="user-type" value="inactive">
+                        <input type="radio" name="status4" value="inactive">
                         <label for="inactive">Inativo(a)</label>
-                        <input type="button" value="Editar">
+                        <input type="button" value="Editar" class="button">
                     </td>
                 </tr>
                 <tr>
                     <td>Nome 5</td>
                     <td>
-                        <label name="status">Status:</label>
-                        <input type="radio" id="active" name="status" value="active">
+                        <label name="status5">Status:</label>
+                        <input type="radio" name="status5" value="active">
                         <label for="active">Ativo(a)</label>
-                        <input type="radio" id="inactive" name="user-type" value="inactive">
+                        <input type="radio" name="status5" value="inactive">
                         <label for="inactive">Inativo(a)</label>
-                        <input type="button" value="Editar">
+                        <input type="button" value="Editar" class="button">
                     </td>
                 </tr>
             </table>
@@ -95,9 +100,8 @@
     </main>
 
     <footer>
-        <h2>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 - <i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i> @fundsalomao - <i class="bi bi-facebook"></i> fundsalomao - <i class="bi bi-linkedin"></i> fundsalomao</h2>
-        <h3><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h3>
-
+        <h5>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 -<i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i>@fundsalomao - <i class="bi bi-facebook"></i>fundsalomao - <i class="bi bi-linkedin"></i>fundsalomao</h5>
+        <h5><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h5>
     </footer>
     
 </body>

@@ -4,74 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="/src/css/padrao.css" rel="stylesheet" />
+    <link href="/src/css/materias.css" rel="stylesheet" />
+    <script type="text/javascript" src="/src/js/padrao.js"></script>
     <title>Matérias - Fundação Salomão</title>
 </head>
 <body>
     <header>
-        <i class="bi bi-geo-alt"></i><p>São Paulo, SP</p>
-        <i class="bi bi-calendar"></i><input type="date" value="2022-01-31" readonly>
-        <nav>
-            <ul>
-                <li><i class="bi bi-person-badge"></i>Alunos</li>
-                <li><i class="bi bi-person-rolodex"></i>Professores</li>
-                <li><i class="bi bi-journal-album"></i>Matérias</li>
-                <li><i class="bi bi-pencil-square"></i>Notas</li>                
-                <li><i class="bi bi-exclamation-diamond"></i>Avisos</li>
-                <li><i class="bi bi-cash-coin"></i>Documentos</li>
-            </ul>
-        </nav>
+        <i class="bi bi-calendar">&nbsp &nbsp</i><label id="dataExtenso">            
     </header>
     <main>
-        <span>
-            <img src="/src/img/faculdade-logo.jpg" alt="Logotipo">
+        <nav id="menu-h">
+            <ul>
+                <li><a href="alunos.html"><i class="bi bi-person-badge"></i>Alunos</a></li>
+                <li><a href="professores.html"><i class="bi bi-person-rolodex"></i>Professores</a></li>
+                <li><a href="materias.html"><i class="bi bi-journal-album"></i>Matérias</a></li>
+                <li><a href="notas.html"><i class="bi bi-pencil-square"></i>Notas</a></li>
+                <li><a href="avisos.html"><i class="bi bi-exclamation-diamond"></i>Avisos</a></li>
+                <li><a href="documentos.html"><i class="bi bi-file-text"></i>Documentos</a></li>
+            </ul>
+        </nav>
+        <span class="header">
+            <img src="/src/img/faculdade-logo.jpg" alt="Logotipo" id="logo-pequeno">
             <h1>Bem vindo a Fundação Salomão!</h1>
         </span>
             
-
         <section>
             <table>
                 <tr>
-                    <th>Matérias</th>
-                    <th></th>                    
+                    <th class="school-subjects">Matérias</th>
+                    <th class="action"></th>                    
                 </tr>
                 <tr>
                     <td>Matéria 1</td> 
-                    <td><i class="bi bi-x-lg"></i></td>                   
+                    <td><i class="bi bi-x-lg icon-red"></i></td>                   
                 </tr>
                 <tr>
                     <td>Matéria 2</td> 
-                    <td><i class="bi bi-x-lg"></i></td>                   
+                    <td><i class="bi bi-x-lg icon-red"></i></td>                   
                 </tr>
                 <tr>
                     <td>Matéria 3</td> 
-                    <td><i class="bi bi-x-lg"></i></td>                   
+                    <td><i class="bi bi-x-lg icon-red"></i></td>                   
                 </tr> 
                 <tr>
                     <td>Matéria 4</td> 
-                    <td><i class="bi bi-x-lg"></i></td>                   
+                    <td><i class="bi bi-x-lg icon-red"></i></td>                   
                 </tr> 
                 <tr>
                     <td>Matéria 5</td> 
-                    <td><i class="bi bi-x-lg"></i></td>                   
+                    <td><i class="bi bi-x-lg icon-red"></i></td>                   
                 </tr>
                 <tr>
-                    <td><input type="text" placeholder="Digite o nome da nova matéria"></td> 
+                    <td><input type="text" placeholder="Digite o nome da nova matéria" class="new-subject"></td> 
                     <td></td>                   
                 </tr>               
             </table>
         </section>
 
-        <section>
-            <input type="submit" value="Nova">
-            <input type="submit" value="Salvar">
+        <section class="group-button">
+            <input type="submit" value="Nova" class="button">
+            <input type="submit" value="Salvar" class="button">
         </section>
 
     </main>
 
     <footer>
-        <h2>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 - <i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i> @fundsalomao - <i class="bi bi-facebook"></i> fundsalomao - <i class="bi bi-linkedin"></i> fundsalomao</h2>
-        <h3><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h3>
-
+        <h5>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 -<i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i>@fundsalomao - <i class="bi bi-facebook"></i>fundsalomao - <i class="bi bi-linkedin"></i>fundsalomao</h5>
+        <h5><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h5>
     </footer>
     
 </body>

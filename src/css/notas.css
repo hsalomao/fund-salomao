@@ -1,0 +1,31 @@
+.group-button  {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.student {
+    width: 60%;
+    -webkit-text-stroke: 1px;
+}
+
+.school-subjects {
+    width: 30%;
+    -webkit-text-stroke: 1px;
+}
+
+.grade {
+    width: 5%;
+    -webkit-text-stroke: 1px;
+}
+
+.action {
+    width: 5%;
+    text-align: center;
+    -webkit-text-stroke: 1px;
+}
+
+#student, #school-subject {
+    width: 95%;
+}

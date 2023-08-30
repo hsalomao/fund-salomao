@@ -1,0 +1,22 @@
+.group-button  {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.action {
+    width: 10%;
+}
+
+.document {
+    width: 90%;
+}
+
+table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}

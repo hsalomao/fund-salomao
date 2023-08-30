@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.founder {
+    max-width: 20%;
+    text-align: justify;
+}
+
+.mission-vision-values {
+    max-width: 80%;
+}

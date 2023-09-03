@@ -1,9 +1,19 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 * {
     font-family: 'Poppins', sans-serif;
     line-height: 2em;
     margin: 0.5em;
     padding: 0;
     box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
 }
 
 .welcome {
@@ -35,17 +45,17 @@ h5 {
 }
 
 .header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
 }
 
 .header h1 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-  text-shadow: 4px 4px 2px rgba(89, 149, 195, 0.6);
+    position: relative;
+    top: 18px;
+    left: 10px;
+    text-shadow: 4px 4px 2px rgba(89, 149, 195, 0.6);
 }
 
 .input-large {
@@ -56,7 +66,11 @@ h5 {
     width: 580px
 }
 
-#menu-h{
+.input-small {
+    width: 100px
+}
+
+#menu-h {
     background-color: rgb(37, 37, 39);
 }
 
@@ -78,7 +92,7 @@ h5 {
     transition: background .4s;
 }
 
-#menu-h ul li a:hover{
+#menu-h ul li a:hover {
     background-color: rgb(24, 139, 233);
 }
 
@@ -87,3 +101,23 @@ h5 {
     -webkit-text-stroke: 3px;
 }
 
+.alert {
+    padding: 3px;
+    color: white;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0.3em;
+}
+
+.closebtn:hover {
+    color: black;
+}

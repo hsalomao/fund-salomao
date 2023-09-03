@@ -25,3 +25,7 @@ function onlyNumberKey(evt) {
         return false;
     return true;
 }
+
+function logar(){
+    console.log("logando");
+}

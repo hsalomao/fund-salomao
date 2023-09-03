@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="/src/css/padrao.css" rel="stylesheet" />
     <link href="/src/css/nova-senha.css" rel="stylesheet" />
     <script type="text/javascript" src="/src/js/padrao.js"></script>
+    <script type="text/javascript" src="/src/js/nova-senha.js"></script>
     <title>Esqueci minha senha - Fundação Salomão</title>
 </head>
 <body>
@@ -28,15 +27,20 @@
             </div>            
             <div>
                 <label name="email">E-Mail:</label>
-                <input type="email" name="email" placeholder="Digite seu emaill aqui">
+                <input type="email" name="email" id="email" placeholder="Digite seu emaill aqui">
             </div>
             <div>
-                <input type="button" value="Enviar" class="button">
+                <input type="button" value="Enviar" id="enviar" class="button">
                 <a href="login.html">
                     <input type="button" value="Voltar" class="button">
                 </a>                
             </div>
         </section>
+
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong></strong> 
+        </div>
     </main>
 
     <footer>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="/src/css/padrao.css" rel="stylesheet" />
+    <link href="/src/css/usuario.css" rel="stylesheet" />
+    <script type="text/javascript" src="/src/js/padrao.js"></script>
+    <script type="text/javascript" src="/src/js/usuario.js"></script>
+    <title>Usuário - Fundação Salomão</title>
+</head>
+
+<body>
+    <header>
+        <i class="bi bi-calendar">&nbsp &nbsp</i><label id="dataExtenso">
+    </header>
+    <main>
+        <span class="header">
+            <img src="/src/img/faculdade-logo.jpg" alt="Logotipo" id="logo-pequeno">
+            <h1>Bem vindo a Fundação Salomão!</h1>
+        </span>
+
+        <section>
+            <span>
+                <i class="bi bi-person-add"></i>Informe os seus dados abaixo:
+            </span>
+            <table>
+                <tr>
+                    <td>
+                        <label name="name">Nome:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="nameUser" placeholder="Digite seu nome aqui" class="input-large">
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <label name="email">E-Mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="telephone">Telefone:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="telephone" id="telephone" minlength="12" placeholder="Digite seu número de telefone aqui" class="input-large" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="cellphone">Celular:</label>
+                    </td>
+                    <td>
+                        <input type="tel" name="cellphone" id="cellphone" minlength="15" placeholder="Digite seu número de celular aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="document">Documento:</label>
+                    </td>
+                    <td>
+                        <select name="document" id="documentType">
+                            <option value="cpf">CPF</option>
+                            <option value="rg">RG</option>
+                            <option value="rne">RNE</option>
+                            <option value="cnh">CNH</option>
+                            <option value="passaporte">Passaporte</option>
+                        </select>
+                        <input type="text" name="document" id="documentNumber" placeholder="Digite seu documento aqui" class="input-medium">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="birthday">Data Nascimento:</label>
+                    </td>
+                    <td>
+                        <input type="date" name="birthday" id="birthday" placeholder="Digite sua data de nascimento aqui">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="cellphone">CEP:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="cep" id="zipcode" placeholder="Digite seu CEP aqui" class="input-large">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="address">Endereço:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="address" id="address" class="input-large" readonly>
+                    </td>
+                    <td>
+                        <label name="address_number">Número:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="address_number" id="addressNumber" class="input-small">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="city_state">Cidade/UF:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="city_state" id="cityState" class="input-large" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="neighborhood">Bairro:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="neighborhood" id="neighborhood" class="input-large" readonly>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label name="school-subjects">Matéria(s):</label></td>
+                    <td>
+                        <div>
+                            <input type="checkbox" id="opt1" name="opt1" checked />
+                            <label for="opt1">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt2" name="opt2" />
+                            <label for="opt2">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt3" name="opt3" />
+                            <label for="opt3">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt4" name="opt4" />
+                            <label for="opt4">Lorem ipsum dolor sit amet</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="opt5" name="opt5" />
+                            <label for="opt5">Lorem ipsum dolor sit amet</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="user-type">Usuário:</label>
+                    </td>
+                    <td class="user-type">
+                        <div  class="user-type">
+                            <div>
+                                <input type="radio" id="userType" name="userType" value="student" checked>
+                                <label for="student">Aluno(a)</label>
+                            </div>
+                            <div>
+                                <input type="radio" id="userType" name="userType" value="teacher">
+                                <label for="teacher">Professor(a)</label><br>
+                            </div>
+                            <div>    
+                                <input type="radio" id="userType" name="userType" value="administrator">
+                                <label for="administrator">Administrador(a)</label>
+                            </div>
+                        </div>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label name="password">Senha:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="password" id="password" placeholder="Digite sua senha aqui">
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <div class="group-button">
+                <input type="button" value="Salvar" id="salvar" class="button">
+                <a href="login.html">
+                    <input type="button" value="Voltar" class="button">
+                </a>
+            </div>
+        </section>
+
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong></strong> 
+        </div>
+    </main>
+
+    <footer>
+        <h5>End: Av. Paulista, 1234 - <i class="bi bi-telephone-forward"></i></i>(11) 1111-1111 -<i class="bi bi-envelope-at"></i>contato@fundsalomao.com.br - <i class="bi bi-instagram"></i>@fundsalomao - <i class="bi bi-facebook"></i>fundsalomao - <i class="bi bi-linkedin"></i>fundsalomao</h5>
+        <h5><i class="bi bi-c-circle"></i>Copyright @2023 Fundação Salomão. All Rights Reserved<h5>
+    </footer>
+
+</body>
+
+</html>

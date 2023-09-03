@@ -12,16 +12,11 @@ table {
     padding-bottom: 40px;
 }
 
-.warning {
-    -webkit-text-stroke: 1px;
-    width: 95%;
-}
-
-textarea {
-    margin:0%;
-    width: 100%;
-}
-
 .action {
     width: 5%;
+}
+
+.new-warn {
+    margin:0%;
+    width: 100%;
 }

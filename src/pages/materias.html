@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="/src/css/padrao.css" rel="stylesheet" />
     <link href="/src/css/materias.css" rel="stylesheet" />
     <script type="text/javascript" src="/src/js/padrao.js"></script>
+    <script type="text/javascript" src="/src/js/materias.js"></script>
     <title>Matérias - Fundação Salomão</title>
 </head>
 <body>
@@ -57,18 +56,19 @@
                 <tr>
                     <td>Matéria 5</td> 
                     <td><i class="bi bi-x-lg icon-red"></i></td>                   
-                </tr>
-                <tr>
-                    <td><input type="text" placeholder="Digite o nome da nova matéria" class="new-subject"></td> 
-                    <td></td>                   
-                </tr>               
+                </tr>             
             </table>
         </section>
 
         <section class="group-button">
-            <input type="submit" value="Nova" class="button">
-            <input type="submit" value="Salvar" class="button">
+            <input type="submit" value="Nova" id="nova" class="button">
+            <input type="submit" value="Salvar" id="salvar" class="button">
         </section>
+
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+            <strong></strong> 
+        </div>
 
     </main>
 
